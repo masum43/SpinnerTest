@@ -31,7 +31,13 @@
         app:show_borders="true"
         app:spinner_border_color="#e6e6e6"
         app:spinner_expand_height="300dp"
-        app:start_search_tint_color="@android:color/white" />
+        app:start_search_tint_color="@android:color/white"
+
+        app:boarder_color="@android:color/holo_blue_light"
+        app:borders_size="1dp"
+        app:done_search_tint_color="@android:color/white"
+
+        />
 
     <com.github.bkhezry.searchablespinner.SearchableSpinner
         android:id="@+id/searchable_spinner1"
